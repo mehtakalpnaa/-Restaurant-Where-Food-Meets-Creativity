@@ -6,27 +6,108 @@
     <title>Restaurant</title>
     
    
-    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/Restaurant-Where-Food-Meets-Creativity/asset/css/style.css">
 
 
 
     
     <nav class="navbar">
         <div class="logo">
-            <img src="asset/immage/logo 1 (1).png" alt="Restaurant Logo">
+            <img src="./asset/immage/logo 1 (1).png" alt="Restaurant Logo">
         </div>
-        <div class="nav-links">
-            <a href="#menu">Menu</a>
-            <a href="#events">Events</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <button class="book-button">Book a Table</button>
+        <ul class="nav-links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="book-btn">Book a Table</a>
+        <div class="menu-toggle">&#9776;</div>
     </nav>
 
     
 
+    
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="/Restaurant-Where-Food-Meets-Creativity/asset/immage/Group 1.png" alt="Restaurant Logo">
+            <h1>We provide the<br> best food for you</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="hero-buttons">
+                <button class="menu-btn">Menu</button>
+                <button class="book-btn">Book a table</button>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="asset/immage/R.png" alt="Facebook"></a>
+                <a href="#"><img src="asset/immage/OIP (1).jpg" alt="Instagram"></a>
+                <a href="#"><img src="/Restaurant-Where-Food-Meets-Creativity/asset/immage/OIP (2).jpg" alt="Twitter"></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="asset/immage/Mask group (6).png" alt="Restaurant Interior" class="background-img">
+            <img src="asset/immage/dish-2 1 (2).png" alt="Delicious Food" class="food-img">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="special-dishes">
+        <h2>Our Special Dishes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+        <div class="dishes-container">
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="asset/immage/dish-1 1 (1).png" alt="Lumpia with Sauce">
+                    <span class="price">$12</span>
+                </div>
+                <h3>Lumpia with Sauce</h3>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="asset/immage/dish-3 1 (1).png" alt="Fish and Veggie">
+                    <span class="price">$12</span>
+                </div>
+                <h3>Fish and Veggie</h3>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="asset/immage/dish-5 (1).png" alt="Tofu Chili">
+                    <span class="price">$12</span>
+                </div>
+                <h3>Tofu Chili</h3>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+
+            <div class="dish-card">
+                <div class="dish-image">
+                    <img src="asset/immage/dish-4 (1).png" alt="Egg and Cucumber">
+                    <span class="price">$12</span>
+                </div>
+                <h3>Egg and Cucumber</h3>
+                <p>Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
     
     
 
@@ -54,7 +135,7 @@
     
     <footer class="footer">
         <div class="footer-container">
-            <!-- Left Section (Logo and Description) -->
+            
             <div class="footer-section about">
                 <div class="logo">
                     <img src="asset/immage/logo 1 (1).png" alt="Restaurant Logo">
@@ -104,7 +185,7 @@
                 <div class="social-icons">
                     <a href="#"><img src="asset/immage/R.png" alt="Facebook"></a>
                     <a href="#"><img src="asset/immage/OIP (1).jpg" alt="Instagram"></a>
-                    <a href="#"><img src="asset/immage/OIP (1).jpg" alt="Twitter"></a>
+                    <a href="#"><img src="/Restaurant-Where-Food-Meets-Creativity/asset/immage/OIP (2).jpg" alt="Twitter"></a>
                 </div>
                 
             </div>
@@ -119,5 +200,11 @@
             </div>
         </div>
     </footer>
+    <script>
+                document.querySelector(".menu-toggle").addEventListener("click", function() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+
+    </script>
 </body>
 </html>
