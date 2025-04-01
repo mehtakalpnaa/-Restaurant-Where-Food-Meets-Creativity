@@ -19,17 +19,6 @@
     margin-right: 10px;
 }
 
-.logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-     
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-}
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -49,6 +38,7 @@
     color: orange;
 }
 
+
 .book-btn {
     background-color: orange;
     color: white;
@@ -62,14 +52,23 @@
     background-color: darkorange;
 }
 
+
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-
-
+/** style rule  for bgi-last-sec**/
+.testimonial-section{
+        padding-bottom: 150px;
+        background-image: url("/Restaurant-Where-Food-Meets-Creativity/asset/css/Group\ \(1\).png");
+        background-repeat: no-repeat;   
+        background-position: 0% 100px;  
+        background-size: 27%;
+        max-width: 100%;
+        height: auto;
+}
 
 @media (max-width: 768px) {
     .nav-links {
@@ -216,7 +215,6 @@ body {
     .hero-image {
         max-width: 100%;
         margin-top: 20px;
-        background-image: url('/Restaurant-Where-Food-Meets-Creativity/asset/css/Group.png');
     }
 
     .food-img {
@@ -335,10 +333,394 @@ body {
 
 
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #222;
+}
+
+.hero-content span {
+    color: #000;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu-btn {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.book-btn {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.menu-btn:hover {
+    background-color: #333;
+}
+
+.book-btn:hover {
+    background-color: #d35400;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 10px;
+}
 
 
 
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 50px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #222;
+}
+
+.hero-content span {
+    color: #000;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu-btn {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.book-btn {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.menu-btn:hover {
+    background-color: #333;
+}
+
+.book-btn:hover {
+    background-color: #d35400;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #000;
+}
+
+.feature-item span {
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.menu-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.book-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chef-image {
+    position: relative;
+    max-width: 50%;
+}
+
+.chef-image img {
+    width: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.testimonial-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    font-size: 20px;
+    color: #FFA500;
+    margin-top: 30px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.customer-role {
+    font-size: 14px;
+    color: #888;
+}
+
+.dots {
+    margin-top: 20px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #ff6600;
+}
+
+.newsletter {
+    background-image: url('/Restaurant-Where-Food-Meets-Creativity/asset/css/Mask\ group\ \(8\).png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.newsletter-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.newsletter form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #e65c00;
+}
+
+
+@media (max-width: 768px) {
+    .newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
 
 
 
